@@ -4,7 +4,7 @@ const text = document.querySelector('#text');
 const getData = async () => {
     try{
         const response = await fetch(
-            'https://codemy.oneentry.cloud/api/content/pages/url/index',
+            'https://codemy.oneentry.cloud/api/content/pages/url/about',
             {
                 method: 'GET',
                 headers:{
